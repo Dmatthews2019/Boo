@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "gaylord",
+		"description": "gaylord Resource Pack",
+		"uuid": "2ee8ad93-54c7-77f7-ae0c-1ced1c8257c3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["gaylords"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.6"]
+		}
+	},
+	"modules": [
+		{
+			"description": "gaylord",
+			"type": "resources",
+			"uuid": "4ee810c9-ae3f-bcdc-af17-be94b3458b63",
+			"version": [1, 0, 0]
+		}
+	]
+}

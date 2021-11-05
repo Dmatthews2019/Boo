@@ -1,0 +1,26 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.boo.move" : {
+			"initial_state" : "updown",
+			"states": {
+				"updown": {
+					"animations": [ "updown" ],
+					"transitions": [
+						{
+							"leftright": "query.is_resting"
+						}
+					]
+				},
+				"leftright": {
+					"animations": [ "leftright" ],
+					"transitions": [
+						{
+							"updown": "!query.is_resting"
+						}
+					]
+				}
+			}
+		}
+	}
+}

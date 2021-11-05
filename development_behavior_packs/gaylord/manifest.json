@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "gaylord",
+		"description": "gaylord Behavior Pack",
+		"uuid": "4dc852a8-a5b8-ecc0-febe-fb3fcae33cbe",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["gaylords"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.6"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "157d11bd-4af3-5374-f3d4-2bcce5a91762",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "2ee8ad93-54c7-77f7-ae0c-1ced1c8257c3",
+			"version": [1, 0, 0]
+		}
+	]
+}
